@@ -2,46 +2,30 @@
 sidebar_position: 1
 ---
 
-# Tutorial Intro
+# 安徽大学飞跃手册介绍
 
-Let's discover **Docusaurus in less than 5 minutes**.
+#### 飞跃手册是什么
 
-## Getting Started
+这是由安大前辈们在大学求学生涯中遇到的一系列疑问和感悟总结出的一本手册（同时也包含一些高质量友情链接）。其主要分为四大模块，分别为**初入安大**、**大学学习**（面向低年级的日常学习、比赛、科研等学习经验分享）、**升学就业**（面向高年级的考研、保研、就业、留学等出路经验分享）、**毕业校友**（毕业多年的校友打拼的经验）。
 
-Get started by **creating a new site**.
+手册中汇集了前辈们在**求学求职等路上踩过的坑和填过的土**，愿尽力为安大学子大学四年每一年的求学道路提供指导。祝大家学业顺利，学有所成୧(๑•̀⌄•́๑)૭✧ 手册会经常更新，希望你能保存网址 www.ahu.wiki ，常回来查查看看，总会有新的收获。
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+#### 为什么是飞跃手册
 
-### What you'll need
+借用并修改《安徽大学信息安全专业入门指导》中的话：学长学姐都很爱自己的母校，希望把自己踩过的坑和填过的土同学弟学妹们分享，从而让后人少走弯路。有学长学姐将自身的感受、体会、经验总结下来，发表在QQ空间、博客，但少人问津。有学长学姐开展经验分享讲座，但讲座内容无法回看与流传。有学长学姐私下花时间分享经验给后辈，但其内容或许只受益于那特定的几位后辈。从没有一项系统性的工程去做这些事情，导致信息传递率很低。这种情况导致的信息流失，让我们觉得可惜。
 
-- [Node.js](https://nodejs.org/en/download/) version 16.14 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+也有人说信息化时代，网络上什么信息没有呢。诚然网络上有无数经验帖，但其信息密度低，内容良莠不齐，真正的好经验帖也因为撰写者背景不同，未必适合安大学子。
 
-## Generate a new site
+这本飞跃手册便怀着改善以上问题的初衷，得到创建。希望手册可以积累下来前辈们宝贵的财富，留给后人，使得安大学子的求学道路更为通畅。
 
-Generate a new Docusaurus site using the **classic template**.
+当然，每一种经验分享方式都有其优点。与学长学姐、同学老师的私下交流或许可以获得不便外传的“独门秘籍”；参加讲座可以与发言人面对面交流答疑；而查找网络上的经验贴也是最便捷了解信息的手段。这些都是需要辩证看待的地方。
 
-The classic template will automatically be added to your project after you run the command:
+#### 联系方式（交流/投稿/意见/建议）
 
-```bash
-npm init docusaurus@latest my-website classic
-```
+邮箱：ahuerleaplap@163.com（尽管发邮件！我们回复很快的！）
 
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
+QQ群：1047350079
 
-The command also installs all necessary dependencies you need to run Docusaurus.
+[GitHub 主页](https://github.com/AHUer-LeapLap/Impart-Inherit)
 
-## Start your site
-
-Run the development server:
-
-```bash
-cd my-website
-npm run start
-```
-
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+[Gitee 主页](https://gitee.com/ahuwiki/Impart-Inherit)
