@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useEffect} from "react";
 import Link from "@docusaurus/Link";
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import Layout from "@theme/Layout";
@@ -6,6 +6,13 @@ import styles from "./index.module.css";
 
 export default function Home() {
   const { siteConfig } = useDocusaurusContext();
+  useEffect(() => {
+    document.documentElement.style.setProperty('--vh', `${window.innerHeight}px`);
+    window.addEventListener('resize', () => {
+      let vh = window.innerHeight;
+      document.documentElement.style.setProperty('--vh', `${vh}px`);
+    });
+  }, []);
   return (
     <Layout title={`${siteConfig.title}`} description="Description will go into a meta tag in <head />">
       <main className={styles.main}>

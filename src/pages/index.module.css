@@ -26,7 +26,10 @@
   flex-grow: 1;
   position: relative;
   overflow: hidden;
+  min-height: 480px;
+  max-height: 640px;
   height: calc(100vh - 3.75rem);
+  height: calc(var(--vh) - 3.75rem);
 }
 
 .ahulogo {
@@ -76,9 +79,6 @@
   .ahulogo {
     height: 300px;
     width: 300px;
-  }
-  .main {
-    height: 640px;
   }
 }
 
