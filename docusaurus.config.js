@@ -82,6 +82,11 @@ const config = {
             position: 'left'
           },
           {
+            to: '/blog', 
+            label: '如何贡献', 
+            position: 'left'
+          },
+          {
             href: 'https://github.com/facebook/docusaurus',
             label: 'GitHub',
             position: 'right',
@@ -101,7 +106,7 @@ const config = {
             ],
           },
           {
-            title: 'Community',
+            title: '联系我们',
             items: [
               {
                 label: 'Stack Overflow',
@@ -118,20 +123,24 @@ const config = {
             ],
           },
           {
-            title: 'More',
+            title: '更多',
             items: [
               {
-                label: 'Blog',
+                label: '博客',
                 to: '/blog',
               },
               {
                 label: 'GitHub',
                 href: 'https://github.com/facebook/docusaurus',
               },
+              {
+                label: 'Gitee',
+                href: 'https://github.com/facebook/docusaurus',
+              },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} 安徽大学飞跃手册. Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,
