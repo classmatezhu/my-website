@@ -54,6 +54,10 @@ const config = {
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
+        gtag: {
+          trackingID: 'G-H8EDNKQ5D0',   // 填写衡量 ID
+          anonymizeIP: true,
+        },
       }),
     ],
   ],
@@ -156,6 +160,7 @@ const config = {
         darkTheme: darkCodeTheme,
       },
     }),
+  
 };
 
 module.exports = config;
