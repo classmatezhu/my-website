@@ -1,4 +1,4 @@
-import React, {useEffect, useRef}  from 'react';
+import React, {useEffect, useRef} from 'react';
 import clsx from 'clsx';
 import {useWindowSize} from '@docusaurus/theme-common';
 import {useDoc} from '@docusaurus/theme-common/internal';
