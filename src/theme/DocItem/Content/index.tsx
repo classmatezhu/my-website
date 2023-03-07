@@ -30,7 +30,7 @@ const Waline = (props: WalineOptions) => {
 export default function ContentWrapper(props) {
   const option = {
     serverURL: 'https://waline.zzy2001.com/',
-    path: `${window.location.pathname}`
+    path: typeof(window) !== 'undefined' ? `${window.location.pathname}` : ''
   };
   return (
     <>
