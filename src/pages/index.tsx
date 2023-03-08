@@ -10,7 +10,9 @@ export default function Home() {
     document.documentElement.style.setProperty('--vh', `${window.innerHeight}px`);
     window.addEventListener('resize', () => {
       let vh = window.innerHeight;
+      let fh = document.getElementsByClassName('footer')[0].scrollHeight;
       document.documentElement.style.setProperty('--vh', `${vh}px`);
+      document.documentElement.style.setProperty('--fh', `${fh}px`);
     });
   }, []);
   return (
