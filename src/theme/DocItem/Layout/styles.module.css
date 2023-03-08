@@ -8,3 +8,12 @@
     max-width: 75% !important;
   }
 }
+
+:global(.wl-comment .wl-panel) {
+  background: var(--waline-bgcolor);
+  border: var(--waline-border);
+  border-radius: .75em;
+  box-shadow: var(--waline-box-shadow);
+  flex-shrink: 1;
+  margin: 1.5rem 0 0.5rem 0;
+}
