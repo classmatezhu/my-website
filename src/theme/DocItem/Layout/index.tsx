@@ -1,4 +1,4 @@
-import React, {useEffect, useRef}  from 'react';
+import React, {useEffect, useRef} from 'react';
 import clsx from 'clsx';
 import {useWindowSize} from '@docusaurus/theme-common';
 import {useDoc} from '@docusaurus/theme-common/internal';
@@ -13,9 +13,7 @@ import DocBreadcrumbs from '@theme/DocBreadcrumbs';
 import styles from './styles.module.css';
 import { init } from '@waline/client';
 import '@waline/client/dist/waline.css'
-
 import type { WalineInstance, WalineInitOptions } from '@waline/client';
-
 export type WalineOptions = Omit<WalineInitOptions, 'el'> & { path: string };
 
 const Waline = (props: WalineOptions) => {
@@ -37,7 +35,6 @@ const Waline = (props: WalineOptions) => {
 
   return <div ref={containerRef} />;
 };
-
 /**
  * Decide if the toc should be rendered, on mobile or desktop viewports
  */
@@ -58,11 +55,11 @@ function useDocTOC() {
   };
 }
 export default function DocItemLayout({children}) {
-  const docTOC = useDocTOC();
   const option = {
     serverURL: 'https://waline.zzy2001.com/',
     path: typeof(window) !== 'undefined' ? `${window.location.pathname}` : ''
   };
+  const docTOC = useDocTOC();
   return (
     <div className="row">
       <div className={clsx('col', !docTOC.hidden && styles.docItemCol)}>

@@ -27,7 +27,7 @@
   position: relative;
   overflow: hidden;
   min-height: 480px;
-  max-height: 640px;
+  max-height: calc(var(--vh) - var(--fh) - 3.75rem - 1px);
   height: calc(100vh - 3.75rem);
   height: calc(var(--vh) - 3.75rem);
 }
@@ -36,7 +36,7 @@
   position: absolute;
   right: 0;
   bottom: 0;
-  translate: 30% 30%;
+  transform: translate(30%, 30%);
   height: 200px;
   width: 200px;
   filter: opacity(30%);
